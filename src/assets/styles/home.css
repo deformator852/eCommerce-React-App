@@ -1,0 +1,68 @@
+.scandinavian-mockup {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  width: 1440px;
+  height: 718px;
+  background-image: url("../images/scandinavian-mockup.png");
+}
+
+.scandinavian-mockup__block {
+  width: 643px;
+  height: 443px;
+  background-color: #fff3e3;
+  border-radius: 10px;
+  margin-right: 58px;
+  margin-top: 157px;
+}
+
+.new-arriwal-paragraph {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  height: 24px;
+}
+
+.discover-our-paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  margin-bottom: 17px;
+  margin-top:4px;
+  color: #b88e2f;
+  width: 400px;
+  height: 127px;
+}
+
+.scandinavian-mockup-paragraph-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  width: 546px;
+  height: 52px;
+  color: #333333;
+}
+
+.buy-now-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width:222px;
+  height:74px;
+  background-color:#B88E2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:46px;
+}
+
+.scandinavian-mockup__block div:first-child {
+  margin-left:41px;
+  margin-top:62px;
+}
