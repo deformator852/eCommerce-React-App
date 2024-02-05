@@ -1,0 +1,54 @@
+.slider {
+  display: flex;
+  position: relative;
+  margin-top: 44px;
+  overflow: hidden;
+}
+.radio-buttons {
+  position: absolute;
+  bottom: 35px;
+  margin-left: 436px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.second,
+.third {
+  width: 50%;
+  height: 50%;
+}
+
+.current-slider-image {
+  width: 404px;
+  height: 582px;
+}
+
+.custom-radio {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+  background-color: #d8d8d8;
+}
+
+.slider label {
+  width: 11px;
+  margin-left:20px;
+}
+
+.custom-radio-active {
+  padding: 8px;
+  border: 1px solid #b88e2f;
+  border-radius: 50%;
+}
+
+.custom-radio-active .custom-radio {
+  background-color: #b88e2f;
+}

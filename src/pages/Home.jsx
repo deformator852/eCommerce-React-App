@@ -11,6 +11,8 @@ import ourProducts6 from "../assets/images/our-products6.png";
 import ourProducts7 from "../assets/images/our-products7.png";
 import ourProducts8 from "../assets/images/our-products8.png";
 import HomeProductBlock from "../components/HomeProductBlok";
+import ShareBlockElement from "../components/ShareBlockElement";
+// import Slider from "../components/Slider";
 function Home() {
   return (
     <main className="home">
@@ -107,6 +109,37 @@ function Home() {
           price="Rp 500.000"
         />
         <div className="home__show-more">Show More</div>
+      </div>
+      {
+        /*
+      <div className="inspiration">
+        <div className="inspiration__block__first">
+          <p>50+ Beatiful rooms inspiration</p>
+          <p>
+            Our designer already made a lot of beautiful prototipe of rooms that
+            inspire you
+          </p>
+          <div className="inspiration__block__first__explore-more">
+            Explore more
+          </div>
+        </div>
+        <div className="inspiration__block__second">
+          <Slider />
+        </div>
+      </div>
+      */
+      }
+      <div className="share__block">
+        <ShareBlockElement className="share__block__element__1" />
+        <ShareBlockElement className="share__block__element__2" />
+        {
+          /*
+                 <ShareBlockElement className="share__block__element__6" />
+       <ShareBlockElement className="share__block__element__7" />
+       <ShareBlockElement className="share__block__element__8" />
+       <ShareBlockElement className="share__block__element__9" />
+        */
+        }
       </div>
     </main>
   );
