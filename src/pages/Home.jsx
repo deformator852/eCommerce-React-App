@@ -12,6 +12,15 @@ import ourProducts7 from "../assets/images/our-products7.png";
 import ourProducts8 from "../assets/images/our-products8.png";
 import HomeProductBlock from "../components/HomeProductBlok";
 import ShareBlockElement from "../components/ShareBlockElement";
+import share1 from "../assets/images/share1.png";
+import share2 from "../assets/images/share2.png";
+import share3 from "../assets/images/share3.png";
+import share4 from "../assets/images/share4.png";
+import share5 from "../assets/images/share5.png";
+import share6 from "../assets/images/share6.png";
+import share7 from "../assets/images/share7.png";
+import share8 from "../assets/images/share8.png";
+import share9 from "../assets/images/share9.png";
 // import Slider from "../components/Slider";
 function Home() {
   return (
@@ -130,16 +139,15 @@ function Home() {
       */
       }
       <div className="share__block">
-        <ShareBlockElement className="share__block__element__1" />
-        <ShareBlockElement className="share__block__element__2" />
-        {
-          /*
-                 <ShareBlockElement className="share__block__element__6" />
-       <ShareBlockElement className="share__block__element__7" />
-       <ShareBlockElement className="share__block__element__8" />
-       <ShareBlockElement className="share__block__element__9" />
-        */
-        }
+        <ShareBlockElement image = {share1}className="share__block__element__1" />
+        <ShareBlockElement image = {share2}className="share__block__element__2" />
+        <ShareBlockElement image = {share3} className="share__block__element__3" />
+        <ShareBlockElement image = {share4} className="share__block__element__4" />
+        <ShareBlockElement image = {share5} className="share__block__element__5" />
+        <ShareBlockElement image = {share6} className="share__block__element__6" />
+        <ShareBlockElement image = {share7} className="share__block__element__7" />
+        <ShareBlockElement image = {share8} className="share__block__element__8" />
+        <ShareBlockElement image = {share9} className="share__block__element__9" />
       </div>
     </main>
   );

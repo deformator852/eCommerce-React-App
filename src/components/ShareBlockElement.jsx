@@ -1,5 +1,4 @@
-import ourProduct from "../assets/images/our-products1.png"
 function ShareBlockElement(props) {
-  return <div className={props.className} style={{backgroundImage:`url('${ourProduct}')`}}></div>;
+  return <div className={props.className} style={{backgroundImage:`url('${props.image}')`}}></div>;
 }
 export default ShareBlockElement;

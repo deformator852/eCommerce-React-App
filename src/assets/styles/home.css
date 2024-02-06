@@ -361,16 +361,49 @@
 }
 
 .share__block__element__3 {
+  right:584px;
+  top:156px;
   width: 295px;
   height: 392px;
 }
 
 .share__block__element__4 {
+  top:100px;
+  left:870px;
   width: 290px;
   height: 348px;
 }
 
 .share__block__element__5 {
+  top:16px;
+  left:1176px;
   width: 262px;
   height: 433px;
+}
+
+.share__block__element__6 {
+  width: 185px;
+  height: 323px;
+  top:399px;
+}
+
+.share__block__element__7 {
+  width: 344px;
+  height: 242px;
+  left:199px;
+  top:399px;
+}
+
+.share__block__element__8 {
+  width: 178px;
+  height: 242px;
+  left:870px;
+  top:464px;
+}
+
+.share__block__element__9 {
+  width: 258px;
+  height: 196px;
+  left:1064px;
+  top:464px;
 }
