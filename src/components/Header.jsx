@@ -5,6 +5,7 @@ import headerAccountAlert from "../assets/images/header-account-alert.png";
 import headerSearch from "../assets/images/header-search.png";
 import headerLiked from "../assets/images/header-liked.png";
 import headerShoppingCart from "../assets/images/header-shopping-cart.png";
+import Shop from "../pages/Shop";
 function Header() {
   return (
     <header className="header">
@@ -14,10 +15,18 @@ function Header() {
             <img className="asd" src={logo} alt="image" />
           </Link>
         </nav>
-        <nav>Home</nav>
-        <nav>Shop</nav>
-        <nav>About</nav>
-        <nav>Contact</nav>
+        <nav>
+          <Link to="/">Home</Link>
+        </nav>
+        <nav>
+          <Link to="/shop" element={<Shop />}>Shop</Link>
+        </nav>
+        <nav>
+          <Link to="/about">About</Link>
+        </nav>
+        <nav>
+          <Link to="/contact">Contact</Link>
+        </nav>
       </navigation>
       <div className="user-services">
         <p className="">

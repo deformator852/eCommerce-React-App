@@ -3,12 +3,19 @@ navigation {
   justify-content: center;
   align-items: center;
 }
+
 header {
   display: flex;
   margin-top: 29px;
 }
+
 .logo {
   margin-right: 192px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
 }
 
 nav {
@@ -17,7 +24,6 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
 }
 
 nav:last-child {
