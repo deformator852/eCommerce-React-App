@@ -10,7 +10,7 @@ import ourProducts5 from "../assets/images/our-products5.png";
 import ourProducts6 from "../assets/images/our-products6.png";
 import ourProducts7 from "../assets/images/our-products7.png";
 import ourProducts8 from "../assets/images/our-products8.png";
-import HomeProductBlock from "../components/HomeProductBlok";
+import ProductCart from "../components/ProductCart";
 import ShareBlockElement from "../components/ShareBlockElement";
 import share1 from "../assets/images/share1.png";
 import share2 from "../assets/images/share2.png";
@@ -66,52 +66,52 @@ function Home() {
       </div>
       <div className="home__our-products__block">
         <p className="home__our-products__block__title">Our Products</p>
-        <HomeProductBlock
+        <ProductCart
           title="Syltherine"
           description="Stylish cafe chair"
           imgPath={ourProducts1}
           price="Rp 2.500.000"
           discountPrice="Rp 3.500.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Leviosa"
           description="Stylish cafe chair"
           imgPath={ourProducts2}
           price="Rp 2.500.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Lolito"
           description="Luxury big sofa"
           imgPath={ourProducts3}
           price="Rp 7.000.000"
           discountPrice="Rp 14.000.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Respira"
           description="Outdoor bar table and stool"
           imgPath={ourProducts4}
           price="Rp 500.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Grifo"
           description="Night lamp"
           imgPath={ourProducts5}
           price="Rp 1.500.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Muggo"
           description="Small mug"
           imgPath={ourProducts6}
           price="Rp 150.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Pingky"
           description="Cute bed set"
           imgPath={ourProducts7}
           price="Rp 7.000.000"
           discountPrice="Rp 14.000.000"
         />
-        <HomeProductBlock
+        <ProductCart
           title="Potty"
           description="Minimalist flower pot"
           imgPath={ourProducts8}

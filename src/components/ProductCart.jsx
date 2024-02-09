@@ -2,7 +2,7 @@ import { useState } from "react";
 import share from "../assets/images/share.svg";
 import compare from "../assets/images/compare.svg";
 import like from "../assets/images/like.svg";
-function HomeProductBlock(props) {
+function ProductCart(props) {
   const [currentProduct, setCurrentProduct] = useState(false);
   const handlerProductOnMouseEnter = () => {
     setCurrentProduct(true);
@@ -61,4 +61,4 @@ function HomeProductBlock(props) {
   );
 }
 
-export default HomeProductBlock;
+export default ProductCart;

@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:121px;
+  margin-top: 121px;
 }
 
 .shop__first-block__element p:first-child {
@@ -38,22 +38,22 @@
 }
 
 .shop__filter {
-  width:1440px;
+  width: 1440px;
   height: 100px;
-  background-color: #F9F1E7;
+  background-color: #f9f1e7;
 }
 
 .shop__filter__wrapper {
   display: flex;
-  margin-top:22px;
+  margin-top: 22px;
   margin-left: 101px;
 }
 
 .shop__filter-line {
-  width:37px;
-  background-color: #9F9F9F;
+  width: 37px;
+  background-color: #9f9f9f;
   transform: rotate(90deg);
-  margin-top:28px;
+  margin-top: 28px;
 }
 
 .shop__filter__wrapper > * {
@@ -61,4 +61,14 @@
   display: flex;
   align-items: flex-end;
   height: 37px;
+}
+
+.shop__second-block {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 285px);
+  grid-template-rows: repeat(4, 446px);
+  gap: 32px;
+  position: relative;
+  margin-top: 63px;
 }
