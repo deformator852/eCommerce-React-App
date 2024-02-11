@@ -72,3 +72,43 @@
   position: relative;
   margin-top: 63px;
 }
+
+.pagination__shop {
+  margin-top: 70px;
+  margin-left: 521px;
+  margin-bottom: 85px;
+}
+
+.reason-choose {
+  background-color: #faf3ea;
+  width: 1440px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason-choose__block {
+  display: flex;
+  margin-right: 55px;
+}
+
+.reason-choose__block__element p {
+  margin-left: 10px;
+}
+
+.reason-choose__block__element p:first-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  color: #242424;
+}
+
+.reason-choose__block__element p:last-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #898989;
+}

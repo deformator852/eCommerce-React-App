@@ -10,7 +10,12 @@ import ourProducts5 from "../assets/images/our-products5.png";
 import ourProducts6 from "../assets/images/our-products6.png";
 import ourProducts7 from "../assets/images/our-products7.png";
 import ourProducts8 from "../assets/images/our-products8.png";
+import highQuality from "../assets/images/hight-quality.svg";
+import warranyProtection from "../assets/images/warranty protection.svg";
+import freeShipping from "../assets/images/free shipping.svg";
+import support from "../assets/images/support.svg";
 import ProductCart from "../components/ProductCart";
+import Pagination from "../components/Pagination";
 function Shop() {
   return (
     <main className="shop">
@@ -129,7 +134,7 @@ function Shop() {
           imgPath={ourProducts4}
           price="Rp 500.000"
         />
-         <ProductCart
+        <ProductCart
           title="Syltherine"
           description="Stylish cafe chair"
           imgPath={ourProducts1}
@@ -155,7 +160,37 @@ function Shop() {
           imgPath={ourProducts4}
           price="Rp 500.000"
         />
-
+      </div>
+      <Pagination />
+      <div className="reason-choose">
+        <div className="reason-choose__block">
+          <img src={highQuality} alt="image" />
+          <div className="reason-choose__block__element">
+            <p>High Quality</p>
+            <p>crafted from top materials</p>
+          </div>
+        </div>
+        <div className="reason-choose__block">
+          <img src={warranyProtection} alt="image" />
+          <div className="reason-choose__block__element">
+            <p>Warranty Protection</p>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+        <div className="reason-choose__block">
+          <img src={freeShipping} alt="image" />
+          <div className="reason-choose__block__element">
+            <p>Free Shipping</p>
+            <p>Order over 150 $</p>
+          </div>
+        </div>
+        <div className="reason-choose__block">
+          <img src={support} alt="image" />
+          <div className="reason-choose__block__element">
+            <p>24 / 7 Support</p>
+            <p>Dedicated support</p>
+          </div>
+        </div>
       </div>
     </main>
   );
