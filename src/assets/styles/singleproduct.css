@@ -1,0 +1,305 @@
+.single-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product__panel {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  background-color: #f9f1e7;
+}
+
+.single-product__panel p:first-child {
+  margin-left: 99px;
+}
+.single-product__panel__arrow-up-first {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.single-product__panel__arrow-up-second {
+  margin-left: 27px;
+  margin-right: 15px;
+}
+
+.single-product-line {
+  width: 37px;
+  height: 1px;
+  background-color: #9f9f9f;
+  transform: rotate(90deg);
+  margin-right: 5px;
+}
+
+.single-product__panel p:nth-child(1),
+.single-product__panel p:nth-child(3) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.single-product__product-info__first {
+  display: flex;
+}
+
+.single-product__product-info__first-wrapper div {
+  background-color: #f9f1e7;
+  width: 76px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.single-product__product-info__first-wrapper div:first-child {
+  margin-top: 32px;
+}
+
+.single-product__product-info__first-wrapper > div:first-child img {
+  margin-top: 18px;
+}
+
+.single-product__product-info__first-wrapper2 {
+  background-color: #f9f1e7;
+  width: 76px;
+  height: 80px;
+  width: 481px;
+  height: 500px;
+  margin-left: 31px;
+  margin-top: 32px;
+  border-radius: 10px;
+}
+
+.single-product__product-info__first-wrapper2 img {
+  margin-top: 78px;
+}
+
+.single-product__product-info {
+  display: flex;
+}
+
+.single-product__product-info__reviews {
+  display: flex;
+}
+
+.single-product__product-info__second {
+  margin-top: 35px;
+  margin-left: 83px;
+}
+
+.single-product__product-info__second__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 63px;
+}
+
+.single-product__product-info__second__price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #9f9f9f;
+  margin-bottom: 25px;
+}
+
+.reviews-line {
+  margin-top: 10px;
+}
+
+.single-product__product-info__reviews p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #9f9f9f;
+}
+
+.single-product__description {
+  width: 424px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 18px;
+}
+
+.single-product__product-info__second__size {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product__product-info__second__size__wrapper {
+  display: flex;
+}
+
+.single-product__product-info__second__size__L {
+  background-color: #b88e2f;
+  color: white;
+}
+
+.single-product__product-info__second__size__XL {
+  background-color: #f9f1e7;
+}
+.single-product__product-info__second__size__XS {
+  background-color: #f9f1e7;
+}
+
+.second__size {
+  width: 30px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.single-product__product-info__second__size p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9f9f9f;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+.single-product__product-info__second__color p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9f9f9f;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.single-product__product-info__second__color__colors {
+  display: flex;
+}
+
+.single-product__product-info__second__color__colors div:nth-child(1) {
+  background-color: #816dfa;
+}
+
+.single-product__product-info__second__color__colors div:nth-child(2) {
+  background-color: #000000;
+}
+
+.single-product__product-info__second__color__colors div:nth-child(3) {
+  background-color: #b88e2f;
+}
+
+.single-product__product-info__second__color__colors div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 16px;
+}
+
+.single-product__product-info__second-add-to-cart {
+  display: flex;
+}
+
+.single-product__product-info__second-add-to-cart {
+  display: flex;
+  margin-top: 32px;
+}
+
+.single-product__product-info__second-add-to-cart__first {
+  width: 123px;
+  height: 64px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.single-product__product-info__second-add-to-cart__first p:nth-child(1) {
+  cursor: pointer;
+}
+
+.single-product__product-info__second-add-to-cart__first p:nth-child(3) {
+  cursor: pointer;
+}
+
+.single-product__product-info__second-add-to-cart__second {
+  cursor: pointer;
+  width: 215px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-left: 18px;
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.single-product__product-info__second-add-to-cart__third {
+  width: 215px;
+  height: 64px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.single-product__product-info__second__line {
+  width: 605px;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-top: 80px;
+  margin-bottom: 41px;
+}
+
+.single-product__product-info__second__meta {
+  display: flex;
+}
+
+.single-product__product-info__second__meta p {
+  margin-bottom: 12px;
+}
+
+.single-product__product-info__second__meta__first {
+  margin-right: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.single-product__product-info__second__meta__second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.single-product__socials img {
+  margin-right: 25px;
+}
+
+
+.single-product__socials img:first-child {
+  margin-left:12px;
+}

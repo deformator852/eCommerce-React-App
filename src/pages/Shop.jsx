@@ -16,6 +16,7 @@ import freeShipping from "../assets/images/free shipping.svg";
 import support from "../assets/images/support.svg";
 import ProductCart from "../components/ProductCart";
 import Pagination from "../components/Pagination";
+import { Link } from "react-router-dom";
 function Shop() {
   return (
     <main className="shop">
@@ -58,18 +59,12 @@ function Shop() {
       </div>
       <div className="shop__second-block">
         <ProductCart
-          title="Syltherine"
-          description="Stylish cafe chair"
-          imgPath={ourProducts1}
-          price="Rp 2.500.000"
-          discountPrice="Rp 3.500.000"
-        />
-        <ProductCart
           title="Leviosa"
           description="Stylish cafe chair"
           imgPath={ourProducts2}
           price="Rp 2.500.000"
         />
+
         <ProductCart
           title="Lolito"
           description="Luxury big sofa"

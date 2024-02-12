@@ -110,6 +110,7 @@ body {
   color: #3a3a3a;
 }
 
+
 .product__discount-price {
   font-style: normal;
   font-weight: 400;
@@ -158,4 +159,8 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
+}
+
+.home__our-products__block__element a{
+  text-decoration: none;
 }
